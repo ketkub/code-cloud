@@ -1,0 +1,74 @@
+.lh-1 {
+background-color: darkgray;
+border: 1px solid rgba(0, 0, 0, 0.2); /* เพิ่มเส้นขอบ */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+    border-radius: 5px; /* ทำให้มุมโค้ง */
+    padding: 10px; /* เพิ่มช่องว่างภายใน */
+    height: 7rem;
+}
+.bd-placeholder-img{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    height: 10rem;
+    width: 10rem;
+}
+element.style {
+    background-color: lightblue; /* สีพื้นหลัง */
+    color: white; /* สีตัวอักษร */
+    padding: 10px; /* การเพิ่มช่องว่างภายใน */
+    border-radius: 5px; /* การทำให้มุมโค้ง */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* เงา */
+    border: 1px solid darkblue; /* เส้นขอบ */
+    font-size: 16px; /* ขนาดตัวอักษร */
+    text-align: center; /* การจัดตำแหน่งข้อความ */
+}
+.navbar>.container, 
+.navbar>.container-fluid, 
+.navbar>.container-lg, 
+.navbar>.container-md, 
+.navbar>.container-sm, 
+.navbar>.container-xl, 
+.navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+    border-radius: 10px; /* ทำให้มุมโค้ง */
+}
+body{
+    background-color: gainsboro;
+}
+.w-100 {
+    width: 100% !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+    border-radius: 10px; /* ทำให้มุมโค้ง */
+    width: 100%; /* กำหนดความกว้างให้เท่ากับความกว้างของพื้นที่ที่ปรากฏ */
+    height: auto; /* ทำให้ความสูงปรับตามอัตราส่วนของภาพ */
+}
+
+.bd-placeholder-img-lg {
+    font-size: 3.5rem;
+    height: 25rem;
+    width: 25rem;
+}
+.text-center {
+    text-align: center !important;
+    FONT-WEIGHT: 200;
+    font-size: 3.5rem;
+}
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+    height: 5rem;
+    border-radius: 10px; /* ทำให้มุมโค้ง */
+}
+.navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    font-size: 1.25rem;
+}
+.blog-header-logo {
+    font-size: 2.25rem;
+    font-style: italic;
+    font-family: cursive;
+}

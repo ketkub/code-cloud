@@ -1,0 +1,49 @@
+.header {
+    background-color: #333; /* สีพื้นหลังของ header เป็นสีดำเข้ม */
+    color: #ccc; /* สีข้อความภายใน header เป็นสีเทา */
+    padding: 20px; /* ระยะห่างภายในของ header */
+    display: flex; /* ให้ header เป็น Flex container */
+    justify-content: space-between; /* จัดวางองค์ประกอบใน header ให้อยู่ทางด้านซ้ายและด้านขวา */
+    align-items: center; /* จัดวางองค์ประกอบใน header ให้อยู่ตรงกลางแนวตั้ง */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงาใต้ header เพื่อเพิ่มมิติหรูหรา */
+}
+
+.logo {
+    color: #fff; /* สีข้อความของโลโก้ */
+    font-size: 24px; /* ขนาดตัวอักษรของโลโก้ */
+    text-decoration: none; /* ไม่มีการเส้นทับที่ข้อความของโลโก้ */
+}
+
+.navbar {
+    display: flex; /* ให้เมนู navigation แสดงเป็นแถว */
+    margin-left: auto; /* จัดเมนูไปทางขวาสุด */
+}
+
+.navbar a {
+    color: #ccc; /* สีข้อความของเมนู */
+    text-decoration: none; /* ไม่มีการเส้นทับที่ข้อความของเมนู */
+    margin-right: 20px; /* ระยะห่างขวาของเมนู */
+}
+
+.cart {
+    color: #ccc; /* สีข้อความของรถเข็น */
+    text-decoration: none; /* ไม่มีการเส้นทับที่ข้อความของรถเข็น */
+    display: flex; /* ให้ส่วนของรถเข็นแสดงเป็น Flex container */
+    align-items: center; /* จัดวางข้อความและจำนวนสินค้าในรถเข็นให้อยู่ตรงกลางแนวตั้ง */
+    margin-left: auto; /* จัด cart ไปทางขวาสุด */
+}
+
+.cart span {
+    background-color: #ff0; /* สีพื้นหลังของจำนวนสินค้าในรถเข็น */
+    color: #333; /* สีข้อความของจำนวนสินค้าในรถเข็น */
+    padding: 5px 10px; /* ขนาดของกล่อง */
+    border-radius: 50%; /* ทำให้มีรูปร่างวงกลม */
+    margin-left: 5px; /* ระยะห่างซ้ายของจำนวนสินค้าในรถเข็น */
+}
+
+#menu-btn {
+    color: #ccc; /* สีข้อความของเมนูปุ่ม */
+    font-size: 24px; /* ขนาดข้อความของเมนูปุ่ม */
+    cursor: pointer; /* เมื่อนำเมาส์มาอยู่เหนือเมนูปุ่มให้เป็นเครื่องชี้ */
+}
+

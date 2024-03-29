@@ -1,0 +1,200 @@
+.header{
+    background-color: var(--black);
+    position: sticky;
+    top:0; left:0;
+    z-index: 1000;
+    height: 100px; /* ปรับความสูงของ header */
+    padding: 0 20px; /* ปรับการระยะห่างของขอบของ header */
+    display: flex;
+    align-items: center;
+    background-color: lightcoral;
+ }
+ 
+ .header .logo{
+    font-size: 2rem; /* ปรับขนาดตัวอักษรของ logo */
+    color: var(--white);
+    text-decoration: none; /* เอาการ underline ออก */
+ }
+ 
+ .header .navbar{
+    margin-left: auto; /* จัด navbar ไปทางขวา */
+ }
+ 
+ .header .navbar a{
+    margin-left: 2rem;
+    font-size: 1.5rem; /* ปรับขนาดตัวอักษรของ navbar */
+    color: var(--white);
+    text-decoration: none; /* เอาการ underline ออก */
+ }
+ 
+ .header .navbar a:hover{
+    color: rgb(0, 0, 0); /* เมื่อ hover ให้เปลี่ยนสีเป็นสีเหลือง */
+ }
+ 
+ .header .cart{
+    margin-left: 2rem;
+    font-size: 2rem; /* ปรับขนาดตัวอักษรของ cart */
+    color: var(--white);
+    text-decoration: none; /* เอาการ underline ออก */
+    position: relative;
+ }
+ 
+ .header .cart:hover{
+    color: rgb(0, 0, 0); /* เมื่อ hover ให้เปลี่ยนสีเป็นสีเหลือง */
+ }
+ 
+ .header .cus{
+   margin-left: 2rem;
+   font-size: 2rem; /* ปรับขนาดตัวอักษรของ cart */
+   color: black;
+   text-decoration: none; /* เอาการ underline ออก */
+   position: relative;
+}
+
+.header .cus:hover{
+   color: rgb(0, 0, 0); /* เมื่อ hover ให้เปลี่ยนสีเป็นสีเหลือง */
+}
+
+.header .order{
+   margin-left: 2rem;
+   font-size: 2rem; /* ปรับขนาดตัวอักษรของ cart */
+   color: black;
+   text-decoration: none; /* เอาการ underline ออก */
+   position: relative;
+}
+
+.header .order:hover{
+   color: rgb(0, 0, 0); /* เมื่อ hover ให้เปลี่ยนสีเป็นสีเหลือง */
+}
+
+ .header .cart span{
+    padding: .2rem .5rem; /* ปรับขนาด padding ของตัวเลขใน cart */
+    border-radius: 50%; /* ทำให้มีรูปร่างเป็นวงกลม */
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 1rem; /* ปรับขนาดตัวอักษรใน cart */
+    position: absolute;
+    top: -10px; /* ขยับตัวเลขขึ้นไปบนตัวของ cart */
+    right: -10px; /* ขยับตัวเลขไปทางขวาของ cart */
+ }
+ 
+ #menu-btn{
+    font-size: 2rem; /* ปรับขนาดตัวอักษรของ icon menu */
+    color: var(--white);
+    cursor: pointer;
+    margin-left: auto; /* จัดให้ icon menu อยู่ด้านขวาของ header */
+    display: none;
+ }
+ .add-product-form{
+    max-width: 50rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6rem;
+    padding:2rem;
+    margin:0 auto;
+    margin-top: 2rem;
+    border-style: solid;
+ }
+ 
+ .add-product-form h3{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color:black;
+    text-transform: uppercase;
+    text-align: center;
+ }
+ 
+ .add-product-form .box{
+    text-transform: none;
+    padding:1.2rem 1.4rem;
+    font-size: 1.7rem;
+    color:var(--black);
+    border-radius: .5rem;
+    background-color: var(--white);
+    margin:0.5rem 0;
+    width: 100%;
+    border-style: groove;
+ }
+ 
+ .display-product-table table{
+    width: 100%;
+    text-align: center;
+ }
+ 
+ .display-product-table table thead th{
+    padding:1.5rem;
+    font-size: 2rem;
+    background-color: lightcoral;
+    color:var(--black);
+ }
+ 
+ .display-product-table table td{
+    padding:1.5rem;
+    font-size: 2rem;
+    color:var(--black);
+    border-style: groove;
+ }
+ 
+ .display-product-table table td:first-child{
+    padding:0;
+ }
+ 
+ .display-product-table table tr:nth-child(even){
+    background-color: var(--bg-color);
+ }
+ 
+ .display-product-table .empty{
+    margin-bottom: 2rem;
+    text-align: center;
+    color:var(--darkgray);
+    font-size: 2rem;
+    padding:1.5rem;
+ }
+ 
+ .edit-form-container{
+    position: fixed;
+    top:0; left:0;
+    z-index: 1100;
+    background-color: var(--dark-bg);
+    padding:2rem;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+ }
+ 
+ .edit-form-container form{
+    width: 50rem;
+    border-radius: .5rem;
+    background-color: var(--white);
+    text-align: center;
+    padding:2rem;
+ }
+ 
+ .edit-form-container form .box{
+    width: 100%;
+    background-color: var(--bg-color);
+    border-radius: .5rem;
+    margin:1rem 0;
+    font-size: 1.7rem;
+    color:var(--black);
+    padding:1.2rem 1.4rem;
+    text-transform: none;
+    border-style: groove;
+ }
+ .btn{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+ }
+ .btn:hover,.btn{
+    background-color: black;
+ }
+ .header .flex .navbar a:hover{
+    color:black;
+ }
+ .header .flex .cart:hover{
+    color:black;
+ }
+ .display-product-table select{
+   background-color: whitesmoke;
+ }

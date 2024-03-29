@@ -1,0 +1,35 @@
+.form-control-dark {
+    border-color: var(--bs-gray);
+  }
+  .form-control-dark:focus {
+    border-color: #000000;
+    box-shadow: 0 0 0 .25rem rgba(0, 0, 0, 0.50);
+  }
+  
+  .text-small {
+    font-size: 85%;
+    color: #ffffff;
+  }
+  
+  .dropdown-toggle:not(:focus) {
+    outline: 0;
+  }
+
+
+/*เพิ่มเข้ามา*/
+
+  .dropdown-toggle {
+    background-color: #333333; /* สีพื้นหลัง */
+    color: #ffffff; /* สีข้อความ */
+    border: 1px solid #666666; /* เส้นขอบ */
+    border-radius: 5px; /* มุมขอบ */
+    padding: 8px 16px; /* ขนาดการเสียบ */
+    transition: all 0.3s ease; /* เพิ่มเอเฟกต์การเปลี่ยนแปลงทุกอย่าง */
+}
+.dropdown-toggle:hover {
+  background-color: #555555; /* สีพื้นหลังเมื่อชี้ไป */
+}
+.dropdown-toggle:focus {
+  outline: none; /* ลบเส้นโค้งรอบปุ่มเมื่อโฟกัส */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* เพิ่มเงา */
+}
